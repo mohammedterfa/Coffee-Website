@@ -121,3 +121,7 @@ body{
     color: var(--main-color);
 
 }
+
+.header .cart-items-container{
+    position: absolute;
+}
