@@ -188,3 +188,8 @@ body{
     
 }
 
+.header .cart-items-container .btn{
+    width: 100%;
+    text-align: center;
+}
+
