@@ -42,6 +42,21 @@ body{
     background: var(--bg);
 }
 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+    
+}
+
 .header{
     background: var(--bg);
     display: flex;
@@ -172,3 +187,4 @@ body{
     color: var(--main-color);
     
 }
+
