@@ -139,7 +139,7 @@ body{
 
 .header .cart-items-container{
     position: absolute;
-    top:100%; right:0;
+    top:100%; right:-100%; 
     height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
@@ -193,3 +193,33 @@ body{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:991px){
+    
+}
