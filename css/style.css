@@ -42,6 +42,12 @@ body{
     background: var(--bg);
 }
 
+section{
+    padding: 2rem 7%;
+
+
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -202,8 +208,27 @@ body{
     text-align: center;
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.home .content{
+    max-width: 60rem;
 
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+
+    
+}
 
 
 
@@ -238,6 +263,12 @@ body{
     .header{
         padding: 1.5rem 2rem;
     }
+
+    section{
+        padding: 2rem;
+        
+    
+    }
 }
 
 
@@ -269,6 +300,14 @@ body{
     .header .search-form{
         width: 90%;
         right: 2rem;
+
+
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
 
     }
 }
