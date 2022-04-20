@@ -358,6 +358,10 @@ section{
 
 }
 
+.products .box-container .box .icons a:hover{
+    background: var(--main-color);
+}
+
 
 
 
