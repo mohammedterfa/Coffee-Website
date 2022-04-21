@@ -323,6 +323,7 @@ section{
 
 .menu .box-container .box .price span{
     font-size: 1.5rem;
+    font-weight: lighter;
     text-decoration: line-through;
 }
 
@@ -393,6 +394,7 @@ section{
 
 .products .box-container .box .content .price span{
     text-decoration: line-through;
+    font-weight: lighter;
     font-size: 1.5rem;
     
 }
